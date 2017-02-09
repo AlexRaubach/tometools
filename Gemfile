@@ -16,6 +16,8 @@ gem 'rack', '1.5.2'
 gem 'shotgun'
 gem 'bcrypt'
 gem 'dotenv'
+gem 'nokogiri'
+gem 'goodreads'
 
 group :test do
   gem 'shoulda-matchers'
