@@ -18,6 +18,9 @@ gem 'bcrypt'
 gem 'dotenv'
 gem 'nokogiri'
 gem 'goodreads'
+gem 'seed_dump'
+gem 'httparty'
+gem 'mechanize'
 
 group :test do
   gem 'shoulda-matchers'
