@@ -9,6 +9,9 @@ class CreateBooks < ActiveRecord::Migration
       t.integer :average_rating
       t.string :author
       t.text :description
+      t.integer :goodsreads_id, { null: false, uniqueness: true }
 
+      t.timestamps(null: false)
+    end
   end
 end
