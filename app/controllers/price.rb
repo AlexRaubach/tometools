@@ -22,7 +22,7 @@ get '/price/all' do
   }
 
   Book.all.each do |book|
-    if book.id != 21 && book.isbn != nil && book.id != 51 && book.id != 45
+    if  book.isbn != nil && book.id != 51 && book.id != 45 && book.id != 21
       @price = Price.new
       @price.book_id = book.id
       page = a.get("https://www.amazon.com/dp/#{book.isbn}")
