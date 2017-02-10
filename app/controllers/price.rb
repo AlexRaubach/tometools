@@ -14,6 +14,27 @@ get '/price' do
 end
 
 
+
+
+get '/price/all' do
+  a = Mechanize.new { |agent|
+    agent.user_agent_alias = 'Mac Safari'
+  }
+
+  Book.all.each do |book|
+    if book.id != 21 && book.isbn != nil && book.id != 51 && book.id != 45
+      @price = Price.new
+      @price.book_id = book.id
+      page = a.get("https://www.amazon.com/dp/#{book.isbn}")
+      @price.cost = page.css('a.a-button-text').css('span.a-color-secondary')[0].text.strip
+      @price.save
+    end
+  end
+
+  redirect '/'
+
+end
+
 get '/price/:id' do
 
   return 404 if !Book.exists?(params[:id])
@@ -33,5 +54,4 @@ get '/price/:id' do
   p @price.cost
 
   # redirect '/'
-
 end
