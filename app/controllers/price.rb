@@ -20,9 +20,9 @@ get '/price/all' do
   a = Mechanize.new { |agent|
     agent.user_agent_alias = 'Mac Safari'
   }
-
+  bad_isbns = ["1605045748", "0812555473", "0743280822", nil]
   Book.all.each do |book|
-    if  book.isbn != nil && book.id != 51 && book.id != 45 && book.id != 21
+    unless bad_isbns.include?(book.isbn)
       @price = Price.new
       @price.book_id = book.id
       page = a.get("https://www.amazon.com/dp/#{book.isbn}")
