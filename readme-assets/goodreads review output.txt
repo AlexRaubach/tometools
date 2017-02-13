@@ -1,0 +1,50 @@
+
+#<Hashie::Mash body="\n  "
+book=#<Hashie::Mash
+    authors=#<Hashie::Mash
+      author=#<Hashie::Mash
+      average_rating="3.76"
+      id="2937730"
+      image_url="\nhttp://images.gr-assets.com/authors/1336959364p5/2937730.jpg\n"
+      link="http://www.goodreads.com/author/show/2937730.Beth_Cato"
+      name="Beth Cato"
+      ratings_count="2652"
+      role=nil
+      small_image_url="\nhttp://images.gr-assets.com/authors/1336959364p2/2937730.jpg\n" text_reviews_count="673">>
+  average_rating="3.64"
+  description="<b>After the Earth’s power is suddenly left unprotected, a young geomancer must rely on her unique magical powers to survive in in this fresh fantasy series from the author of acclaimed <i>The Clockwork Dagger</i>.</b><br /><br />In an alternate 1906, the United States and Japan have forged a powerful confederation—the Unified Pacific—in an attempt to dominate the world. Their first target is a vulnerable China. In San Francisco, headstrong Ingrid Carmichael is assisting a group of powerful geomancer Wardens who have no idea of the depth of her power—or that she is the only woman to possess such skills. <br /><br />When assassins kill the Wardens, Ingrid and her mentor are protected by her incredible magic. But the pair is far from safe. Without its full force of guardian geomancers, the city is on the brink of a cataclysmic earthquake that will expose Earth’s powers to masterminds determined to control the energy for their own dark ends. The danger escalates when Chinese refugees, preparing to fight the encroaching American and Japanese, fracture the uneasy alliance between the Pacific allies, transforming the city into a veritable powder keg. And the slightest tremor will set it off. . . . <br /><br />Forced on the run, Ingrid makes some shocking discoveries about herself. Her powerful magic has grown even more fearsome . . . and she may be the fulcrum on which the balance of world power rests."
+   edition_information=nil
+   format="Paperback"
+   id=27213224
+   image_url="http://images.gr-assets.com/books/1453486775m/27213224.jpg"
+   isbn="0062422065"
+   isbn13="9780062422064"
+   large_image_url=nil
+   link="http://www.goodreads.com/book/show/27213224-breath-of-earth"
+   num_pages="400"
+   publication_day="23"
+   publication_month="8" publication_year="2016"
+   published="2016"
+   publisher="Harper Voyager"
+   ratings_count="256"
+   small_image_url="http://images.gr-assets.com/books/1453486775s/27213224.jpg"
+   text_reviews_count=67
+   title="Breath Of Earth (Breath of Earth, #1)"
+ >
+
+
+
+
+
+ comments_count="0"
+ date_added="Sat Feb 04 17:11:08 -0800 2017"
+ date_updated="Sat Feb 04 17:11:09 -0800 2017"
+ id="1902976064"
+ link="http://www.goodreads.com/review/show/1902976064"
+ owned="0"
+ rating="0"
+ read_at=nil
+ read_count=nil
+ recommended_by=nil
+ recommended_for=nil
+ shelves=#<Hashie::Mash shelf=[#<Hashie::Mash exclusive="true" name="to-read" review_shelf_id="1559897962" sortable="true">, #<Hashie::Mash exclusive="false" name="should-read" review_shelf_id="1559897975" sortable="false">]> spoiler_flag="false" spoilers_state="none" started_at=nil url="http://www.goodreads.com/review/show/1902976064" votes="0">

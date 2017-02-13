@@ -1,0 +1,14 @@
+
+<H1> Welcome to Alex's To-Read List </H1>
+
+<a href='/update'>Update Books</a>
+<a href='/price/all'>Update all Prices</a>
+
+
+<div>
+  <ol>
+  <% Book.all.each do |book| %>
+    <%= erb :'/book/_book', { layout: false, locals: {book: book }} %>
+  <% end %>
+  </ol>
+</div>
